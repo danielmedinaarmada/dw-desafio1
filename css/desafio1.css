@@ -1,0 +1,155 @@
+body {
+  margin: 0px;    
+}
+
+.header{
+  background:#273b47;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img{
+  width:100px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul{
+  display: flex;
+  margin: 0px;
+}
+
+.menu li {
+  padding-left: 10px;
+  list-style: none;
+}
+
+.portada {
+  height: 500px;
+  background:#d3d3d3; /* gris */
+  overflow: hidden;
+}
+
+.contenedor {
+  width:1000px;
+  margin: auto;
+}
+
+.fondo {
+  background-image: url("../images/dfgda.png");
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.busqueda {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px;
+}
+
+.cuadro{
+  width: 500px;
+  height: 200px;
+  background-color: rgba(51, 51, 51, 0.5);
+  margin: 0 0 80px 30px;
+  padding: 20px;
+}
+
+.cuadro h3 {
+  color: #d3d1d1;
+  font-size: 25px;    
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+
+.autores {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: gray;
+}
+
+.autores h4 {
+  color: #7f7f7f;
+  padding-left: 10px; 
+}
+
+.autor {
+  display: flex;
+}
+
+.autor img {
+  height: 30px;
+  border-radius: 50%;
+}
+
+.articles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.article_contenedor{
+  margin-top: 15px;
+  width: 300px;
+  image-rendering: 100%;
+}
+
+.article_imagen {
+  background-size: 100%;
+  height: 200px;
+}
+
+.article_contenedor h3 {
+  color: #515151;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+
+.paginacion {
+  margin:20px 0;
+  text-align: center;
+  font-size: 10px;
+}
+ 
+.paginacion ul {
+  list-style:none;
+  display: inline;
+  text-align: center;
+}
+ 
+.paginacion ul li {
+  display:inline-block;
+  margin-right:10px;
+}
+ 
+.paginacion ul li a {
+  display: inline-block;
+  padding:10px 20px;
+  color:#fff;
+  background:#024959;
+  text-decoration: none;
+}
+ 
+.paginacion ul li a:hover {
+  background:#037E8C;
+}
+ 
+.paginacion ul li .active {
+  background:#037E8C;
+  font-weight:bold;
+}
+
+.paginacion h2 {
+  display: inline;
+}
